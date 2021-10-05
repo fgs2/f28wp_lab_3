@@ -1,0 +1,64 @@
+.board-container {
+  height: 370px;
+  width: 370px;
+}
+
+.board-container .row {
+  height: 100%;
+}
+
+.board-card {
+  border: 2px solid #f7f7f7;
+  height: 25%;
+  padding: 0;
+  overflow: hidden;
+}
+
+.face-container {
+  height: 200%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  transition: 400ms;
+}
+
+.faceup,
+.facedown {
+  height: 50%;
+}
+
+.facedown {
+  background-color: #d0d0d0;
+}
+
+.faceup {
+}
+
+.flipped .face-container {
+  top: -100%;
+}
+
+.color-0 {
+  background-color: cyan;
+}
+.color-1 {
+  background-color: blue;
+}
+.color-2 {
+  background-color: purple;
+}
+.color-3 {
+  background-color: brown;
+}
+.color-4 {
+  background-color: magenta;
+}
+.color-5 {
+  background-color: green;
+}
+.color-6 {
+  background-color: orange;
+}
+.color-7 {
+  background-color: pink;
+}
